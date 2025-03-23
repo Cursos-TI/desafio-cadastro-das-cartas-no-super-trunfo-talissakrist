@@ -6,16 +6,19 @@
 
 //Teste Talissa
 
+#include <stdio.h>
+
 int main() {
 
-    char estado1 = 'C';
+    int carta1;
+    char estado = 'C';
     char estado2 = 'R';
-    char codigo1 [4] = "C01";
-    char codigo [4] = "R02";
+    char codigo1[4] = "C01";
+    char codigo2[4] = "R02";
     char cidade1 [7] = "Fortaleza";
     char cidade2 [7] = "Natal";
-    int populacao1 = "2.428.678";
-    int populacao2 = "751.300";
+    int populacao1 = "2428678";
+    int populacao2 = "751300";
     float area1 = 313.18;
     float area2 = 167.3;
     float pib1 = 27.000 ;
@@ -23,8 +26,12 @@ int main() {
     int pontot1 = 15;
     int pontot2 = 11;
 
-    printf("Digite o primeiro estado: \n" , estado1);
-    scanf("%c" , &estado1);
+   
+    printf("O estado 1 é: %c\n", estado);
+    printf("Código da cidade: %s", codigo1);
+}
+
+   
 
 
 
