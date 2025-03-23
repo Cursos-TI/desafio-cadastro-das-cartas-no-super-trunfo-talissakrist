@@ -30,8 +30,8 @@ int main() {
     printf("Código da cidade: %s\n" , codigo1);
     printf("Cidade: %s\n"  , cidade1);
     printf("População: %d\n"  , populacao1);
-    printf("Área: %f\n"  , area1);
-    printf("PIB: %f\n" , pib1);
+    printf("Área: %f Km²\n"  , area1);
+    printf("PIB: %f Bilhões de reais\n" , pib1);
     printf("Número de pontos turísticos: %d\n\n\n" , pontot1);
 
     //Exibição dos dados da segunda carta!
@@ -42,9 +42,9 @@ int main() {
     printf("Código da cidade: %s\n" , codigo2);
     printf("Cidade: %s\n"  , cidade2);
     printf("População: %d\n"  , populacao2);
-    printf("Área: %f\n"  , area2);
-    printf("PIB: %f\n" , pib2);
+    printf("Área: %f Km²\n"  , area2);
+    printf("PIB: %f Bilhões de reais\n" , pib2);
     printf("Número de pontos turísticos: %d\n" , pontot2);
-    
+
     return 0;
 }
