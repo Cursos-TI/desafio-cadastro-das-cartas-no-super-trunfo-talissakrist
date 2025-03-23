@@ -7,10 +7,9 @@
 //Teste Talissa
 
 int main() {
-    int carta1;
-    int carta2;
-    char Estado1 = 'C';
-    char Estado2 = 'R';
+
+    char estado1 = 'C';
+    char estado2 = 'R';
     char codigo1 [4] = "C01";
     char codigo [4] = "R02";
     char cidade1 [7] = "Fortaleza";
@@ -24,10 +23,10 @@ int main() {
     int pontot1 = 15;
     int pontot2 = 11;
 
-    printf("Exibição da Primeira Carta", carta1);
-    scanf("%s" , &carta1);
+    printf("Digite o primeiro estado: \n" , estado1);
+    scanf("%c" , &estado1);
 
-    
+
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
