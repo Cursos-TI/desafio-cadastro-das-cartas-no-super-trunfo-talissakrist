@@ -4,7 +4,7 @@
 // Cadastro de duas Cartas
 
 
-nt main() {
+int main() {
 
     //Declaração dei variáveis para armazenar os dados das duas cartas!
 
