@@ -4,9 +4,9 @@
 // Cadastro de duas Cartas
 
 
-int main() {
+nt main() {
 
-    //Declaração de variáveis para armazenar os dados das duas cartas!
+    //Declaração dei variáveis para armazenar os dados das duas cartas!
 
     char estado1 = 'C';
     char estado2 = 'R';
