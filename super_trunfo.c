@@ -6,8 +6,8 @@
 
 int main() {
 
-    //Declaração dei variáveis para armazenar os dados das duas cartas!
-
+    //Declaração de variáveis para armazenar os dados das duas cartas!
+    printf("Desafio Super Trunfo!\n\n");
     char estado1 = 'C';
     char estado2 = 'R';
     char codigo1[4] = "C01";
