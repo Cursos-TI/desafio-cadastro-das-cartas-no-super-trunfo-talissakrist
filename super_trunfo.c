@@ -40,12 +40,12 @@ int main() {
     scanf("%f", &pib1);
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontot1);
-    printf("\n");
+    printf("\n\n");
 
     //Exibição dos dados da segunda carta!
     
 
-    printf("Carta 2 \n ");
+    printf("Carta 2\n");
     printf("Estado:");
     scanf("%c", &estado2);
     printf("Código da cidade: ");
